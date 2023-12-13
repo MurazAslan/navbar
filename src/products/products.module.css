@@ -1,0 +1,31 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 30%;
+    height: 26rem;
+    background: green;
+    box-sizing: border-box;
+    color: #dedede;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box h2 {
+    font-size:  2vh
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
